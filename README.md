@@ -1,23 +1,24 @@
 # network_scanner
 
 cyberpunk_network_scanner/
-├── setup.py
-├── main.py
-├── requirements.txt
-└── scanner/
-    ├── __init__.py
-    ├── core.py
-    ├── gui.py
-    ├── matrix_background.py
-    ├── network/
-    │   ├── __init__.py
-    │   ├── ip_tools.py
-    │   ├── dns_scanner.py
-    │   └── port_scanner.py
-    └── utils/
+    
+    ├── setup.py
+    ├── main.py
+    ├── requirements.txt
+    └── scanner/
         ├── __init__.py
-        ├── geoip.py
-        └── export.py
+        ├── core.py
+        ├── gui.py
+        ├── matrix_background.py
+            ├── network/
+        │   ├── __init__.py
+        │   ├── ip_tools.py
+        │   ├── dns_scanner.py
+        │   └── port_scanner.py
+            └── utils/
+            ├── __init__.py
+            ├── geoip.py
+            └── export.py
 
 #Install
 
