@@ -1,6 +1,6 @@
 # network_scanner
 
-cyberpunk_network_scanner/
+# cyberpunk_network_scanner
     
     ├── setup.py
     ├── main.py
@@ -20,11 +20,11 @@ cyberpunk_network_scanner/
             ├── geoip.py
             └── export.py
 
-#Install
+# Install
 
     pip install -r requirements.txt
 
-#Run 
+# Run 
 
     chmod +x python main.py
     python main.py
